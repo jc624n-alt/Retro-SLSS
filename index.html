@@ -1,98 +1,587 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.5">
-  <style type="text/css">
-    body {background-color: #0d0d0e}
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: justify; font: 11.0px 'Helvetica Neue'; color: #ecdd3b; -webkit-text-stroke: #ecdd3b}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #696877; -webkit-text-stroke: #696877; background-color: #141418}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px 'Helvetica Neue'; color: #696877; -webkit-text-stroke: #696877; background-color: #696877; min-height: 12.0px}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px 'Helvetica Neue'; color: #696877; -webkit-text-stroke: #696877}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 64.0px 'Helvetica Neue'; color: #22222a; -webkit-text-stroke: #22222a}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 20.0px 'Helvetica Neue'; color: #ece9e0; -webkit-text-stroke: #ece9e0}
-    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #696877; -webkit-text-stroke: #696877}
-    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #6d6d6d; -webkit-text-stroke: #6d6d6d; min-height: 15.0px}
-    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 20.0px '.Apple Color Emoji UI'; color: #ece9e0; -webkit-text-stroke: #ece9e0}
-    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #44ffb7; -webkit-text-stroke: #44ffb7}
-    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #696877; -webkit-text-stroke: #696877; background-color: #22222a}
-    p.p13 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #696877; -webkit-text-stroke: #696877; background-color: #141418}
-    p.p14 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #fc5258; -webkit-text-stroke: #fc5258}
-    p.p15 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #9571f8; -webkit-text-stroke: #9571f8}
-    p.p16 {margin: 0.0px 0.0px 0.0px 0.0px; font: 40.0px '.Apple Color Emoji UI'; color: #ece9e0; -webkit-text-stroke: #ece9e0}
-    p.p17 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #ece9e0; -webkit-text-stroke: #ece9e0}
-    p.p18 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 11.0px 'Helvetica Neue'; color: #ece9e0; -webkit-text-stroke: #ece9e0; background-color: #0d0d0e}
-    p.p19 {margin: 0.0px 0.0px 0.0px 0.0px; font: 40.0px 'Helvetica Neue'; color: #ecdd3b; -webkit-text-stroke: #ecdd3b}
-    p.p20 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 10.0px 'Helvetica Neue'; color: #696877; -webkit-text-stroke: #696877}
-    p.p21 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 11.0px 'STIX Two Math'; color: #ece9e0; -webkit-text-stroke: #ece9e0; background-color: #0d0d0e}
-    p.p22 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 11.0px 'Helvetica Neue'; color: #0d0d0e; -webkit-text-stroke: #0d0d0e; background-color: #44ffb7}
-    span.s1 {font-kerning: none}
-    span.s2 {font-kerning: none; color: #ece9e0; -webkit-text-stroke: 0px #ece9e0}
-    span.s3 {font: 11.0px '.Apple Color Emoji UI'; font-kerning: none}
-    span.s4 {font: 11.0px 'STIX Two Math'; font-kerning: none}
-    span.s5 {font: 20.0px '.Apple Color Emoji UI'; font-kerning: none}
-    span.s6 {font-kerning: none; background-color: #141418}
-    span.s7 {font-kerning: none; color: #ecdd3b; background-color: #141418; -webkit-text-stroke: 0px #ecdd3b}
-  </style>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>La Ruleta del Sprint — Segment Led Solution Squad</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<style>
+:root {
+  --bg: #0f0f11;
+  --surface: #1a1a1f;
+  --border: #2e2e38;
+  --accent1: #f0e14a;
+  --accent2: #ff6b6b;
+  --accent3: #4affc4;
+  --accent4: #a78bfa;
+  --text: #f0ede6;
+  --muted: #7c7c8a;
+  --card-good: #1a2e22;
+  --card-bad: #2e1a1a;
+  --card-idea: #1a1f2e;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  font-family: 'DM Mono', monospace;
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+body::before {
+  content: '';
+  position: fixed; inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+  pointer-events: none; z-index: 0;
+}
+
+/* SYNC INDICATOR */
+.sync-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--muted); display: inline-block;
+  margin-right: 6px; transition: background 0.3s;
+}
+.sync-dot.live { background: var(--accent3); box-shadow: 0 0 6px var(--accent3); animation: pulse 2s infinite; }
+.sync-dot.error { background: var(--accent2); }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+.sync-status { font-size: 10px; color: var(--muted); display: flex; align-items: center; }
+
+header {
+  position: relative; z-index: 1;
+  padding: 28px 48px 18px;
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 16px;
+}
+.logo-block { display: flex; flex-direction: column; }
+.logo-eyebrow { font-size: 11px; letter-spacing: 0.18em; color: var(--accent1); text-transform: uppercase; margin-bottom: 4px; }
+.logo-title { font-family: 'Syne', sans-serif; font-size: clamp(16px, 2.2vw, 28px); font-weight: 800; line-height: 1.1; letter-spacing: -0.02em; }
+.logo-title span { color: var(--accent1); }
+.header-right { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
+.header-meta { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.meta-pill { background: var(--surface); border: 1px solid var(--border); padding: 5px 12px; border-radius: 40px; font-size: 11px; color: var(--muted); }
+.meta-pill b { color: var(--text); }
+
+.timer-bar { position: relative; z-index: 1; background: var(--surface); border-bottom: 1px solid var(--border); padding: 12px 48px; display: flex; gap: 0; overflow-x: auto; }
+.phase-step { flex: 1; min-width: 90px; display: flex; flex-direction: column; align-items: center; padding: 0 6px; cursor: pointer; transition: opacity 0.2s; }
+.phase-step:hover { opacity: 0.85; }
+.phase-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--border); margin-bottom: 6px; transition: background 0.3s, transform 0.3s; }
+.phase-step.active .phase-dot { background: var(--accent1); transform: scale(1.5); box-shadow: 0 0 10px var(--accent1); }
+.phase-step.done .phase-dot { background: var(--accent3); }
+.phase-label { font-size: 9px; color: var(--muted); text-align: center; letter-spacing: 0.04em; text-transform: uppercase; line-height: 1.3; }
+.phase-step.active .phase-label { color: var(--accent1); }
+.phase-step.done .phase-label { color: var(--accent3); }
+.phase-min { font-size: 9px; color: var(--muted); margin-top: 2px; }
+
+main { position: relative; z-index: 1; padding: 32px 48px 100px; }
+.section-header { display: flex; align-items: baseline; gap: 16px; margin-bottom: 24px; }
+.section-num { font-family: 'Syne', sans-serif; font-size: 64px; font-weight: 800; line-height: 1; color: var(--border); letter-spacing: -0.04em; }
+.section-info { display: flex; flex-direction: column; }
+.section-title { font-family: 'Syne', sans-serif; font-size: 20px; font-weight: 700; }
+.section-sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+
+.emoji-grid { display: flex; flex-wrap: wrap; gap: 10px; }
+.emoji-slot { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 10px 14px; display: flex; align-items: center; gap: 10px; min-width: 160px; }
+.name-input { background: none; border: none; border-bottom: 1px dashed var(--border); color: var(--text); font-family: 'DM Mono', monospace; font-size: 11px; width: 90px; padding: 2px 0; outline: none; }
+.name-input:focus { border-bottom-color: var(--accent1); }
+.emoji-pick { cursor: pointer; font-size: 20px; background: none; border: none; transition: transform 0.15s; }
+.emoji-pick:hover { transform: scale(1.3); }
+
+.sprint-board { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.board-col { background: var(--surface); border-radius: 16px; border: 1px solid var(--border); padding: 20px; min-height: 280px; }
+.col-header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+.col-icon { font-size: 20px; }
+.col-title { font-family: 'Syne', sans-serif; font-size: 13px; font-weight: 700; line-height: 1.3; }
+.col-count { margin-left: auto; background: var(--border); border-radius: 20px; padding: 2px 8px; font-size: 11px; color: var(--muted); flex-shrink: 0; }
+
+.sticky-notes { display: flex; flex-direction: column; gap: 8px; }
+.sticky { border-radius: 8px; padding: 10px 12px; font-size: 12px; line-height: 1.5; position: relative; animation: popIn 0.25s cubic-bezier(0.34,1.56,0.64,1); }
+@keyframes popIn { from{transform:scale(0.85);opacity:0} to{transform:scale(1);opacity:1} }
+.sticky-good { background: var(--card-good); border-left: 3px solid var(--accent3); }
+.sticky-bad  { background: var(--card-bad);  border-left: 3px solid var(--accent2); }
+.sticky-idea { background: var(--card-idea); border-left: 3px solid var(--accent4); }
+.sticky-author { font-size: 10px; color: var(--muted); margin-top: 4px; }
+.sticky-del { position: absolute; top: 6px; right: 8px; background: none; border: none; color: var(--muted); font-size: 14px; cursor: pointer; opacity: 0; transition: opacity 0.15s; }
+.sticky:hover .sticky-del { opacity: 1; }
+
+.add-note-btn { margin-top: 10px; width: 100%; background: transparent; border: 1px dashed var(--border); border-radius: 8px; padding: 8px; color: var(--muted); font-family: 'DM Mono', monospace; font-size: 12px; cursor: pointer; transition: border-color 0.2s, color 0.2s; }
+.add-note-btn:hover { border-color: var(--accent1); color: var(--accent1); }
+
+.topic-cluster { display: flex; flex-direction: column; gap: 10px; }
+.topic-row { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 18px; display: flex; align-items: center; gap: 16px; transition: border-color 0.2s; }
+.topic-row:hover { border-color: var(--accent4); }
+.topic-votes { background: var(--border); border-radius: 8px; padding: 4px 10px; font-family: 'Syne', sans-serif; font-size: 18px; font-weight: 800; min-width: 36px; text-align: center; }
+.topic-text { flex: 1; font-size: 13px; }
+.vote-btn { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 6px 12px; color: var(--text); font-family: 'DM Mono', monospace; font-size: 12px; cursor: pointer; transition: all 0.15s; }
+.vote-btn:hover { background: var(--accent1); color: var(--bg); border-color: var(--accent1); }
+.topic-del { background: none; border: none; color: var(--muted); font-size: 16px; cursor: pointer; padding: 0 4px; }
+.top3-badge { font-size: 10px; background: var(--accent1); color: var(--bg); border-radius: 4px; padding: 2px 6px; font-weight: 700; }
+
+.kudos-wall { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+.kudo-card { background: linear-gradient(135deg,#1f1a2e,#1a1f2e); border: 1px solid #3d2e5e; border-radius: 14px; padding: 16px; position: relative; overflow: hidden; }
+.kudo-card::before { content:'★'; position:absolute; top:-10px; right:8px; font-size:60px; opacity:0.06; color:var(--accent4); }
+.kudo-to { font-family:'Syne',sans-serif; font-size:15px; font-weight:700; color:var(--accent4); }
+.kudo-msg { font-size:12px; color:var(--muted); margin-top:6px; line-height:1.5; }
+.kudo-from { font-size:10px; color:#5a4e6e; margin-top:8px; }
+.kudo-del { position:absolute; top:8px; right:10px; background:none; border:none; color:var(--muted); cursor:pointer; font-size:14px; opacity:0; transition:opacity 0.15s; }
+.kudo-card:hover .kudo-del { opacity:1; }
+
+.acuerdo-list { display: flex; flex-direction: column; gap: 12px; }
+.acuerdo-item { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; display: flex; gap: 16px; align-items: flex-start; position: relative; }
+.acuerdo-num { font-family:'Syne',sans-serif; font-size:28px; font-weight:800; color:var(--accent1); line-height:1; }
+.acuerdo-body { flex: 1; }
+.acuerdo-title { font-size: 14px; font-weight: 500; }
+.acuerdo-owner { font-size: 11px; color: var(--muted); margin-top: 4px; }
+.vote-row { display: flex; gap: 8px; margin-top: 10px; }
+.vote-emoji-btn { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 5px 10px; cursor: pointer; font-size: 14px; transition: transform 0.1s; }
+.vote-emoji-btn:hover { transform: scale(1.2); }
+.vote-tally { font-size: 12px; color: var(--muted); margin-left: auto; align-self: center; }
+.acuerdo-del { position:absolute; top:12px; right:14px; background:none; border:none; color:var(--muted); font-size:14px; cursor:pointer; opacity:0; transition:opacity 0.15s; }
+.acuerdo-item:hover .acuerdo-del { opacity:1; }
+
+.timer-widget { position:fixed; bottom:28px; right:28px; background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:16px 24px; z-index:100; display:flex; flex-direction:column; align-items:center; box-shadow:0 8px 40px rgba(0,0,0,0.5); min-width:160px; }
+.timer-label { font-size:10px; color:var(--muted); letter-spacing:0.12em; text-transform:uppercase; margin-bottom:6px; }
+.timer-display { font-family:'Syne',sans-serif; font-size:40px; font-weight:800; letter-spacing:-0.04em; line-height:1; color:var(--accent1); transition:color 0.3s; }
+.timer-display.warning { color: var(--accent2); }
+.timer-phase-name { font-size:10px; color:var(--muted); margin-top:4px; text-align:center; max-width:130px; }
+.timer-controls { display:flex; gap:8px; margin-top:10px; }
+.t-btn { background:var(--bg); border:1px solid var(--border); border-radius:8px; padding:5px 10px; color:var(--text); font-family:'DM Mono',monospace; font-size:11px; cursor:pointer; transition:all 0.15s; }
+.t-btn:hover { background:var(--accent1); color:var(--bg); border-color:var(--accent1); }
+.t-btn.next { background:var(--accent3); color:var(--bg); border-color:var(--accent3); }
+
+.section-divider { border:none; border-top:1px solid var(--border); margin:40px 0; }
+
+.modal-overlay { position:fixed; inset:0; background:rgba(0,0,0,0.7); z-index:200; display:none; align-items:center; justify-content:center; }
+.modal-overlay.open { display:flex; }
+.modal { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:28px; width:420px; max-width:92vw; }
+.modal h3 { font-family:'Syne',sans-serif; font-size:18px; margin-bottom:16px; }
+.modal input, .modal textarea { width:100%; background:var(--bg); border:1px solid var(--border); border-radius:8px; padding:10px 14px; color:var(--text); font-family:'DM Mono',monospace; font-size:13px; margin-bottom:10px; resize:vertical; outline:none; transition:border-color 0.2s; }
+.modal input:focus, .modal textarea:focus { border-color:var(--accent1); }
+.modal textarea { min-height:80px; }
+.modal-actions { display:flex; gap:10px; justify-content:flex-end; margin-top:4px; }
+.btn-primary { background:var(--accent1); color:var(--bg); border:none; border-radius:8px; padding:8px 18px; font-family:'DM Mono',monospace; font-size:13px; cursor:pointer; font-weight:500; }
+.btn-cancel { background:transparent; color:var(--muted); border:1px solid var(--border); border-radius:8px; padding:8px 18px; font-family:'DM Mono',monospace; font-size:13px; cursor:pointer; }
+
+.empty-msg { color:var(--muted); font-size:12px; padding:8px; }
+
+@media(max-width:768px){
+  header,main{padding-left:20px;padding-right:20px;}
+  .timer-bar{padding-left:20px;padding-right:20px;}
+  .sprint-board{grid-template-columns:1fr;}
+  .timer-widget{bottom:14px;right:14px;}
+}
+</style>
 </head>
 <body>
-<p class="p1"><span class="s1">RETROSPECTIVA · SPRINT 2×2</span></p>
-<h1 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 17.6px 'Helvetica Neue'; color: #ecdd3b; -webkit-text-stroke: #ecdd3b"><span class="s2">La Ruleta del Sprint · </span><span class="s1">Segment Led Solution Squad</span></h1>
-<p class="p3"><span class="s3">👥</span><span class="s1"> </span><span class="s2">13</span><span class="s1"> integrantes</span></p>
-<p class="p3"><span class="s4">⏱</span><span class="s1"> </span><span class="s2">60</span><span class="s1"> min</span></p>
-<p class="p3"><span class="s3">🏃</span><span class="s1"> </span><span class="s2">2</span><span class="s1"> sprints</span></p>
-<p class="p4"><span class="s1"></span><br></p>
-<p class="p5"><span class="s1">Conectando...</span></p>
-<p class="p6"><span class="s1">01</span></p>
-<p class="p7"><span class="s1">¿Cómo llegas hoy? </span><span class="s5">🌡️</span></p>
-<p class="p8"><span class="s1">Energizante de apertura · 5 min · Haz clic en el emoji para cambiarlo · Escribe tu nombre</span></p>
-<p class="p9"><span class="s1"></span><br></p>
-<p class="p6"><span class="s1">02</span></p>
-<p class="p7"><span class="s1">Lluvia de ideas </span><span class="s5">🌧️</span></p>
-<p class="p8"><span class="s1">Todos escriben simultáneamente · 10 min · Sin hablar primero</span></p>
-<p class="p10"><span class="s6">🙈</span></p>
-<p class="p11"><span class="s6">¿Qué tema estamos evitando como equipo?</span></p>
-<p class="p12"><span class="s1">0</span></p>
-<p class="p13"><span class="s1">+ Agregar nota</span></p>
-<p class="p10"><span class="s6">🔁</span></p>
-<p class="p14"><span class="s6">¿Qué problema repetimos sprint tras sprint?</span></p>
-<p class="p12"><span class="s1">0</span></p>
-<p class="p13"><span class="s1">+ Agregar nota</span></p>
-<p class="p10"><span class="s6">💡</span></p>
-<p class="p15"><span class="s6">Propuesta de mejora</span></p>
-<p class="p12"><span class="s1">0</span></p>
-<p class="p13"><span class="s1">+ Agregar nota</span></p>
-<p class="p9"><span class="s1"></span><br></p>
-<p class="p6"><span class="s1">03</span></p>
-<p class="p7"><span class="s1">Clustering &amp; Votación </span><span class="s5">🗳️</span></p>
-<p class="p8"><span class="s1">Dot voting · 8 min · Top 3 temas para discutir</span></p>
-<p class="p8"><span class="s1">+ Agregar tema agrupado</span></p>
-<p class="p9"><span class="s1"></span><br></p>
-<p class="p6"><span class="s1">04</span></p>
-<p class="p7"><span class="s1">Hot Takes </span><span class="s5">⚡</span></p>
-<p class="p8"><span class="s1">30 seg por persona · 15 min · Solo sobre los Top 3 temas</span></p>
-<p class="p16"><span class="s6">🎙️</span></p>
-<p class="p17"><span class="s6">Ronda relámpago</span></p>
-<p class="p8"><span class="s6">Cada persona tiene </span><span class="s7">30 segundos</span><span class="s6"> para comentar sobre uno de los Top 3 temas. El moderador activa el timer.</span></p>
-<p class="p18"><span class="s1">▶ Iniciar ronda (30 seg)</span></p>
-<p class="p9"><span class="s1"></span><br></p>
-<p class="p6"><span class="s1">05</span></p>
-<p class="p7"><span class="s1">Nuestros 3 Acuerdos </span><span class="s5">🤝</span></p>
-<p class="p8"><span class="s1">Co-creación en vivo · 10 min · Máximo 3 acuerdos accionables</span></p>
-<p class="p8"><span class="s1">+ Proponer acuerdo</span></p>
-<p class="p9"><span class="s1"></span><br></p>
-<p class="p6"><span class="s1">06</span></p>
-<p class="p7"><span class="s1">Kudos </span><span class="s5">⭐</span></p>
-<p class="p8"><span class="s1">Reconocimiento del equipo · 7 min · Management 3.0 Kudo Cards</span></p>
-<p class="p8"><span class="s1">+ Dar kudos a alguien</span></p>
-<p class="p5"><span class="s6">FASE ACTUAL</span></p>
-<p class="p19"><span class="s6">05:00</span></p>
-<p class="p20"><span class="s6">¿Cómo llegas hoy?</span></p>
-<p class="p21"><span class="s1">⏯</span></p>
-<p class="p18"><span class="s1">↺</span></p>
-<p class="p22"><span class="s1">→ Sig.</span></p>
+
+<header>
+  <div class="logo-block">
+    <span class="logo-eyebrow">Retrospectiva · Sprint 2×2</span>
+    <h1 class="logo-title">La Ruleta del Sprint · <span>Segment Led Solution Squad</span></h1>
+  </div>
+  <div class="header-right">
+    <div class="header-meta">
+      <div class="meta-pill">👥 <b>13</b> integrantes</div>
+      <div class="meta-pill">⏱ <b>60</b> min</div>
+      <div class="meta-pill">🏃 <b>2</b> sprints</div>
+    </div>
+    <div class="sync-status">
+      <span class="sync-dot" id="syncDot"></span>
+      <span id="syncLabel">Conectando...</span>
+    </div>
+  </div>
+</header>
+
+<div class="timer-bar" id="phaseBar"></div>
+
+<main>
+
+  <!-- 01 CHECK-IN -->
+  <div class="section-header">
+    <div class="section-num">01</div>
+    <div class="section-info">
+      <div class="section-title">¿Cómo llegas hoy? 🌡️</div>
+      <div class="section-sub">Energizante de apertura · 5 min · Haz clic en el emoji para cambiarlo · Escribe tu nombre</div>
+    </div>
+  </div>
+  <div class="emoji-grid" id="emojiGrid"></div>
+
+  <hr class="section-divider"/>
+
+  <!-- 02 LLUVIA DE IDEAS -->
+  <div class="section-header">
+    <div class="section-num">02</div>
+    <div class="section-info">
+      <div class="section-title">Lluvia de ideas 🌧️</div>
+      <div class="section-sub">Todos escriben simultáneamente · 10 min · Sin hablar primero</div>
+    </div>
+  </div>
+  <div class="sprint-board">
+    <div class="board-col">
+      <div class="col-header">
+        <span class="col-icon">🙈</span>
+        <span class="col-title" style="color:var(--accent3)">¿Qué tema estamos evitando como equipo?</span>
+        <span class="col-count" id="goodCount">0</span>
+      </div>
+      <div class="sticky-notes" id="goodNotes"></div>
+      <button class="add-note-btn" onclick="openModal('good')">+ Agregar nota</button>
+    </div>
+    <div class="board-col">
+      <div class="col-header">
+        <span class="col-icon">🔁</span>
+        <span class="col-title" style="color:var(--accent2)">¿Qué problema repetimos sprint tras sprint?</span>
+        <span class="col-count" id="badCount">0</span>
+      </div>
+      <div class="sticky-notes" id="badNotes"></div>
+      <button class="add-note-btn" onclick="openModal('bad')">+ Agregar nota</button>
+    </div>
+    <div class="board-col">
+      <div class="col-header">
+        <span class="col-icon">💡</span>
+        <span class="col-title" style="color:var(--accent4)">Propuesta de mejora</span>
+        <span class="col-count" id="ideaCount">0</span>
+      </div>
+      <div class="sticky-notes" id="ideaNotes"></div>
+      <button class="add-note-btn" onclick="openModal('idea')">+ Agregar nota</button>
+    </div>
+  </div>
+
+  <hr class="section-divider"/>
+
+  <!-- 03 CLUSTERING -->
+  <div class="section-header">
+    <div class="section-num">03</div>
+    <div class="section-info">
+      <div class="section-title">Clustering & Votación 🗳️</div>
+      <div class="section-sub">Dot voting · 8 min · Top 3 temas para discutir</div>
+    </div>
+  </div>
+  <div class="topic-cluster" id="topicList"></div>
+  <button class="add-note-btn" style="margin-top:12px;max-width:300px;" onclick="openModal('topic')">+ Agregar tema agrupado</button>
+
+  <hr class="section-divider"/>
+
+  <!-- 04 HOT TAKES -->
+  <div class="section-header">
+    <div class="section-num">04</div>
+    <div class="section-info">
+      <div class="section-title">Hot Takes ⚡</div>
+      <div class="section-sub">30 seg por persona · 15 min · Solo sobre los Top 3 temas</div>
+    </div>
+  </div>
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px;display:flex;align-items:center;gap:20px;flex-wrap:wrap;">
+    <div style="font-size:40px">🎙️</div>
+    <div style="flex:1;min-width:200px;">
+      <div style="font-family:'Syne',sans-serif;font-size:16px;font-weight:700;margin-bottom:4px;">Ronda relámpago</div>
+      <div style="font-size:12px;color:var(--muted);line-height:1.6;">Cada persona tiene <b style="color:var(--accent1)">30 segundos</b> para comentar sobre uno de los Top 3 temas. El moderador activa el timer.</div>
+    </div>
+    <button class="t-btn" style="white-space:nowrap;" onclick="startHotTake()">▶ Iniciar ronda (30 seg)</button>
+  </div>
+
+  <hr class="section-divider"/>
+
+  <!-- 05 ACUERDOS -->
+  <div class="section-header">
+    <div class="section-num">05</div>
+    <div class="section-info">
+      <div class="section-title">Nuestros 3 Acuerdos 🤝</div>
+      <div class="section-sub">Co-creación en vivo · 10 min · Máximo 3 acuerdos accionables</div>
+    </div>
+  </div>
+  <div class="acuerdo-list" id="acuerdoList"></div>
+  <button class="add-note-btn" style="margin-top:12px;max-width:300px;" onclick="openModal('acuerdo')">+ Proponer acuerdo</button>
+
+  <hr class="section-divider"/>
+
+  <!-- 06 KUDOS -->
+  <div class="section-header">
+    <div class="section-num">06</div>
+    <div class="section-info">
+      <div class="section-title">Kudos ⭐</div>
+      <div class="section-sub">Reconocimiento del equipo · 7 min · Management 3.0 Kudo Cards</div>
+    </div>
+  </div>
+  <div class="kudos-wall" id="kudosWall"></div>
+  <button class="add-note-btn" style="margin-top:12px;max-width:280px;" onclick="openModal('kudo')">+ Dar kudos a alguien</button>
+
+</main>
+
+<!-- TIMER -->
+<div class="timer-widget">
+  <div class="timer-label">Fase actual</div>
+  <div class="timer-display" id="timerDisplay">05:00</div>
+  <div class="timer-phase-name" id="timerPhaseName">¿Cómo llegas hoy?</div>
+  <div class="timer-controls">
+    <button class="t-btn" onclick="toggleTimer()">⏯</button>
+    <button class="t-btn" onclick="resetTimer()">↺</button>
+    <button class="t-btn next" onclick="nextPhase()">→ Sig.</button>
+  </div>
+</div>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modal">
+  <div class="modal">
+    <h3 id="modalTitle">Nueva nota</h3>
+    <input type="text" id="modalA" placeholder="Tu nombre"/>
+    <textarea id="modalT" placeholder="Escribe aquí..."></textarea>
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeModal()">Cancelar</button>
+      <button class="btn-primary" onclick="saveNote()">Agregar ✓</button>
+    </div>
+  </div>
+</div>
+
+<!-- FIREBASE SDK (compat, no requiere npm) -->
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+
+<script>
+// ── FIREBASE CONFIG ──────────────────────────────────────────────
+const firebaseConfig = {
+  apiKey: "AIzaSyAMu4gJmIK-l-rLX8AmkGp_oi12Wr5zkwI",
+  authDomain: "retro-slss.firebaseapp.com",
+  databaseURL: "https://retro-slss-default-rtdb.firebaseio.com",
+  projectId: "retro-slss",
+  storageBucket: "retro-slss.firebasestorage.app",
+  messagingSenderId: "1095903131894",
+  appId: "1:1095903131894:web:5806800c3b826e26f554d7"
+};
+firebase.initializeApp(firebaseConfig);
+const db = firebase.database();
+
+// sync indicator
+function setSyncStatus(state) {
+  const dot = document.getElementById('syncDot');
+  const lbl = document.getElementById('syncLabel');
+  dot.className = 'sync-dot ' + state;
+  lbl.textContent = state === 'live' ? 'En vivo · sincronizado' : state === 'error' ? 'Sin conexión' : 'Conectando...';
+}
+db.ref('.info/connected').on('value', snap => setSyncStatus(snap.val() ? 'live' : 'error'));
+
+// ── PHASES ───────────────────────────────────────────────────────
+const PHASES = [
+  { name:'¿Cómo llegas hoy?',    min:5  },
+  { name:'Lluvia de ideas',       min:10 },
+  { name:'Clustering & Votación', min:8  },
+  { name:'Hot Takes',             min:15 },
+  { name:'Nuestros 3 Acuerdos',  min:10 },
+  { name:'Kudos',                 min:7  },
+];
+const EMOJIS = ['🔥','😴','🤯','😎','🤔','💪','😅','🌊','🧠','⚡','🎯','🫠','😤'];
+
+const MODAL_CFG = {
+  good:   { title:'🙈 ¿Qué tema estamos evitando?',           a:'Tu nombre', t:'Describe el tema que evitamos...' },
+  bad:    { title:'🔁 ¿Qué problema repetimos sprint a sprint?', a:'Tu nombre', t:'Describe el problema recurrente...' },
+  idea:   { title:'💡 Propuesta de mejora',                    a:'Tu nombre', t:'Tu propuesta de mejora...' },
+  topic:  { title:'🔖 Tema agrupado',                          a:'Nombre del tema', t:'Descripción breve...' },
+  kudo:   { title:'⭐ Dar Kudos',                              a:'Para quién (nombre)', t:'¿Por qué sobresalió?' },
+  acuerdo:{ title:'🤝 Proponer Acuerdo',                       a:'Responsable / Dueño', t:'Describe el acuerdo accionable...' },
+};
+
+let currentModal = '';
+let currentPhase = 0;
+let timerSec = PHASES[0].min * 60;
+let timerOn = false;
+let timerTick = null;
+let emojiIdx = Array.from({length:13}, (_,i) => i % EMOJIS.length);
+
+// ── PHASE BAR ────────────────────────────────────────────────────
+function renderPhaseBar() {
+  document.getElementById('phaseBar').innerHTML = PHASES.map((p,i) => `
+    <div class="phase-step ${i===currentPhase?'active':i<currentPhase?'done':''}" onclick="jumpPhase(${i})">
+      <div class="phase-dot"></div>
+      <div class="phase-label">${p.name}</div>
+      <div class="phase-min">${p.min} min</div>
+    </div>`).join('');
+}
+function jumpPhase(i) {
+  currentPhase = i; timerSec = PHASES[i].min * 60;
+  timerOn = false; clearInterval(timerTick);
+  // sync phase to firebase so everyone sees the same phase
+  db.ref('session/phase').set(i);
+  renderPhaseBar(); updateTimer();
+}
+function nextPhase() { if(currentPhase < PHASES.length-1) jumpPhase(currentPhase+1); }
+
+// ── TIMER ────────────────────────────────────────────────────────
+function updateTimer() {
+  const m = String(Math.floor(timerSec/60)).padStart(2,'0');
+  const s = String(timerSec%60).padStart(2,'0');
+  const el = document.getElementById('timerDisplay');
+  el.textContent = `${m}:${s}`;
+  el.className = 'timer-display' + (timerSec < 60 ? ' warning' : '');
+  document.getElementById('timerPhaseName').textContent = PHASES[currentPhase].name;
+}
+function toggleTimer() {
+  if(timerOn) { clearInterval(timerTick); timerOn = false; }
+  else {
+    timerOn = true;
+    timerTick = setInterval(() => {
+      if(timerSec > 0) { timerSec--; updateTimer(); }
+      else { clearInterval(timerTick); timerOn = false; }
+    }, 1000);
+  }
+}
+function resetTimer() { clearInterval(timerTick); timerOn = false; timerSec = PHASES[currentPhase].min * 60; updateTimer(); }
+function startHotTake() { jumpPhase(3); timerSec = 30; updateTimer(); clearInterval(timerTick); timerOn = false; toggleTimer(); }
+
+// ── EMOJI GRID ───────────────────────────────────────────────────
+function renderEmojiGrid() {
+  document.getElementById('emojiGrid').innerHTML = Array.from({length:13}, (_,i) => `
+    <div class="emoji-slot">
+      <button class="emoji-pick" id="ep${i}" onclick="cycleEmoji(${i})">${EMOJIS[emojiIdx[i]]}</button>
+      <input class="name-input" id="nm${i}" placeholder="Nombre ${i+1}"
+        onchange="db.ref('checkin/${i}').set({emoji:emojiIdx[${i}], name:this.value})"/>
+    </div>`).join('');
+}
+function cycleEmoji(i) {
+  emojiIdx[i] = (emojiIdx[i]+1) % EMOJIS.length;
+  document.getElementById('ep'+i).textContent = EMOJIS[emojiIdx[i]];
+  const name = document.getElementById('nm'+i).value;
+  db.ref('checkin/'+i).set({ emoji: emojiIdx[i], name });
+}
+
+// sync checkin from firebase
+db.ref('checkin').on('value', snap => {
+  const data = snap.val() || {};
+  Object.keys(data).forEach(i => {
+    const slot = data[i];
+    emojiIdx[i] = slot.emoji;
+    const epEl = document.getElementById('ep'+i);
+    const nmEl = document.getElementById('nm'+i);
+    if(epEl) epEl.textContent = EMOJIS[slot.emoji];
+    if(nmEl && document.activeElement !== nmEl) nmEl.value = slot.name || '';
+  });
+});
+
+// ── NOTES (realtime) ─────────────────────────────────────────────
+function renderNotes(type, data) {
+  const entries = data ? Object.entries(data).sort((a,b) => a[1].ts - b[1].ts) : [];
+  document.getElementById(type+'Notes').innerHTML = entries.map(([key, n]) => `
+    <div class="sticky sticky-${type}">
+      ${n.text}
+      <div class="sticky-author">— ${n.author}</div>
+      <button class="sticky-del" onclick="delNote('${type}','${key}')">✕</button>
+    </div>`).join('');
+  document.getElementById(type+'Count').textContent = entries.length;
+}
+function delNote(type, key) { db.ref('notes/'+type+'/'+key).remove(); }
+
+['good','bad','idea'].forEach(type => {
+  db.ref('notes/'+type).on('value', snap => renderNotes(type, snap.val()));
+});
+
+// ── TOPICS (realtime) ────────────────────────────────────────────
+db.ref('topics').on('value', snap => {
+  const data = snap.val() || {};
+  const entries = Object.entries(data).sort((a,b) => b[1].votes - a[1].votes);
+  document.getElementById('topicList').innerHTML = entries.length
+    ? entries.map(([key, t], rank) => `
+      <div class="topic-row">
+        <div class="topic-votes" style="color:${rank<3?'var(--accent1)':'var(--muted)'}">${t.votes}</div>
+        <div class="topic-text">
+          <b>${t.label}</b>${t.desc?' — '+t.desc:''}
+          ${rank<3?`<span class="top3-badge" style="margin-left:8px">TOP ${rank+1}</span>`:''}
+        </div>
+        <button class="vote-btn" onclick="voteTopic('${key}',${t.votes})">● Votar</button>
+        <button class="topic-del" onclick="db.ref('topics/${key}').remove()">✕</button>
+      </div>`).join('')
+    : '<div class="empty-msg">Agrega temas después del clustering...</div>';
+});
+function voteTopic(key, current) { db.ref('topics/'+key+'/votes').set(current+1); }
+
+// ── KUDOS (realtime) ─────────────────────────────────────────────
+db.ref('kudos').on('value', snap => {
+  const data = snap.val() || {};
+  const entries = Object.entries(data).sort((a,b) => a[1].ts - b[1].ts);
+  document.getElementById('kudosWall').innerHTML = entries.length
+    ? entries.map(([key, k]) => `
+      <div class="kudo-card">
+        <button class="kudo-del" onclick="db.ref('kudos/${key}').remove()">✕</button>
+        <div class="kudo-to">⭐ ${k.to}</div>
+        <div class="kudo-msg">${k.msg}</div>
+        ${k.from?`<div class="kudo-from">— ${k.from}</div>`:''}
+      </div>`).join('')
+    : '<div class="empty-msg">¡Sé el primero en reconocer a alguien!</div>';
+});
+
+// ── ACUERDOS (realtime) ──────────────────────────────────────────
+db.ref('acuerdos').on('value', snap => {
+  const data = snap.val() || {};
+  const entries = Object.entries(data).sort((a,b) => a[1].ts - b[1].ts);
+  document.getElementById('acuerdoList').innerHTML = entries.length
+    ? entries.map(([key, a], i) => `
+      <div class="acuerdo-item">
+        <div class="acuerdo-num">0${i+1}</div>
+        <div class="acuerdo-body">
+          <div class="acuerdo-title">${a.text}</div>
+          <div class="acuerdo-owner">👤 ${a.owner}</div>
+          <div class="vote-row">
+            <button class="vote-emoji-btn" onclick="voteAcuerdo('${key}','up',${a.up||0})">👍</button>
+            <button class="vote-emoji-btn" onclick="voteAcuerdo('${key}','down',${a.down||0})">👎</button>
+            <span class="vote-tally">${a.up||0} 👍 · ${a.down||0} 👎</span>
+          </div>
+        </div>
+        <button class="acuerdo-del" onclick="db.ref('acuerdos/${key}').remove()">✕</button>
+      </div>`).join('')
+    : '<div class="empty-msg">Aún no hay acuerdos propuestos.</div>';
+});
+function voteAcuerdo(key, type, current) { db.ref('acuerdos/'+key+'/'+type).set(current+1); }
+
+// sync phase from firebase (so all users follow moderator's phase)
+db.ref('session/phase').on('value', snap => {
+  const p = snap.val();
+  if(p !== null && p !== currentPhase) {
+    currentPhase = p;
+    timerSec = PHASES[p].min * 60;
+    clearInterval(timerTick); timerOn = false;
+    renderPhaseBar(); updateTimer();
+  }
+});
+
+// ── MODAL ────────────────────────────────────────────────────────
+function openModal(type) {
+  currentModal = type;
+  const cfg = MODAL_CFG[type];
+  document.getElementById('modalTitle').textContent = cfg.title;
+  document.getElementById('modalA').placeholder = cfg.a;
+  document.getElementById('modalT').placeholder = cfg.t;
+  document.getElementById('modalA').value = '';
+  document.getElementById('modalT').value = '';
+  document.getElementById('modal').classList.add('open');
+  setTimeout(() => document.getElementById('modalA').focus(), 50);
+}
+function closeModal() { document.getElementById('modal').classList.remove('open'); }
+
+function saveNote() {
+  const a = document.getElementById('modalA').value.trim() || 'Anónimo';
+  const t = document.getElementById('modalT').value.trim();
+  if(!t) { document.getElementById('modalT').focus(); return; }
+  const ts = Date.now();
+
+  if(currentModal === 'topic') {
+    db.ref('topics').push({ label: a || 'Tema', desc: t, votes: 0, ts });
+  } else if(currentModal === 'kudo') {
+    db.ref('kudos').push({ to: a, msg: t, from: '', ts });
+  } else if(currentModal === 'acuerdo') {
+    db.ref('acuerdos').once('value', snap => {
+      if(Object.keys(snap.val()||{}).length >= 3) { alert('Máximo 3 acuerdos por retro.'); return; }
+      db.ref('acuerdos').push({ owner: a, text: t, up: 0, down: 0, ts });
+    });
+  } else {
+    db.ref('notes/'+currentModal).push({ author: a, text: t, ts });
+  }
+  closeModal();
+}
+
+document.getElementById('modal').addEventListener('click', e => {
+  if(e.target === document.getElementById('modal')) closeModal();
+});
+
+// ── INIT ─────────────────────────────────────────────────────────
+renderPhaseBar();
+updateTimer();
+renderEmojiGrid();
+</script>
 </body>
 </html>
